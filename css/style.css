@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&family=Inter:wght@700&family=Montserrat:wght@700&family=Raleway:wght@400;500&display=swap');
+
+
+
+.container {
+    max-width: 1225px;
+    max-height: 100vh;
+    margin: 0 auto;
+
+}
+
+.main__header {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.question {
+    background: linear-gradient(white 70%, #F4D26D 30%);
+}
+
+.happy {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 71px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.map__img {
+    position: absolute;
+    z-index: 1;
+}
+
+.configuration {
+    z-index: 999;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    padding-left: 104px;
+    backdrop-filter: blur(20px);
+    width: 650px;
+    border-radius: 10px;
+}
+
+.header__conf {
+    font-size: 40px;
+    margin-bottom: 66px;
+    font-family: 'Exo 2';
+    font-weight: 600;
+}
+
+.header__color {
+    margin-right: 64px;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #384255;
+}
+
+.select__color {
+    display: flex;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color {
+    color: #384255;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid rgba(144, 156, 181, 0.5);
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: center ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    padding: 8px;
+}
+
+.color__black {
+    background: white;
+    border: 1px solid red;
+}
+.color__black span {
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.color__graphite span {
+    width: 20px;
+    height: 20px;
+    background: #505050;
+    border: 1px solid #909CB5;;
+    border-radius: 50%;
+}
+
+.color__white span {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+}
+
+.color__red span {
+    width: 20px;
+    height: 20px;
+    background: #F53B49;
+    border-radius: 50%;
+}
+
+.color__blue span {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+}
+
+.color__yellow span {
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border-radius: 50%;
+}
+
+.dop {
+    color: #909CB5;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+/*----------------
+------------------
+-----КОНТАКТЫ-----
+------------------
+----------------*/
+
+
+
+
+.header__contacts {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 27px;
+}
+
+.phone__number {
+    max-width: 256px;
+    font-size: 30px;
+    color: #FFAB00;
+    border: 1px dashed #334483;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    margin-bottom: 12px;
+    font-family: 'Exo 2';
+    font-weight: 700;
+}
+
+.text {
+    font-style: italic;
+    font-size: 19px;
+    color: #808080;
+    margin-bottom: 45px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.city {
+    font-size: 25px;
+    line-height: 130%;
+    margin-bottom: 10px;
+    font-family: 'Exo 2';
+    font-weight: 700;
+}
+
+.adress {
+    font-size: 19px;
+    line-height: 130%;
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+.mail {
+    max-width: 180px;
+    padding-top: 15px;
+    font-size: 30px;
+    line-height: 140%;
+    color: #FFAB00;
+    border: 1px dashed #334483;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    font-family: 'Exo 2';
+    font-weight: 700;
+}
